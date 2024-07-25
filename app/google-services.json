@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "226688827577",
+    "project_id": "mc-trax-push-notifications",
+    "storage_bucket": "mc-trax-push-notifications.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:226688827577:android:2a814eb96474a5362f1b68",
+        "android_client_info": {
+          "package_name": "com.example.cloudmessagingandroid"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBX7urNWBDoq6Eo-C1m22uNvE9w4ZGUhjk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
