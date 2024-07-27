@@ -40,7 +40,7 @@ class FCMService : FirebaseMessagingService() {
         val notification = NotificationCompat.Builder(this, channelId)
             .setContentTitle(message.notification?.title)
             .setContentText(message.notification?.body)
-            .setLargeIcon(BitmapFactory.decodeStream(URL(message.notification?.imageUrl.toString()).openStream()))
+            //.setLargeIcon(BitmapFactory.decodeStream(URL(message.notification?.imageUrl.toString()).openStream()))
             .setSmallIcon(R.drawable.playstore)
             .setAutoCancel(true)
             .setContentIntent(pendingIntent)

@@ -54,8 +54,11 @@ fun FirebaseMessagingScreen() {
 
 
     // Main Screen
+    
+    Text(text = "Howdy")
 
-    val url = "http://3.136.251.55/dashboard"
+    var url = "http://3.136.251.55/dashboard"
+    url = "https://www.mctrax.net/loginmain.php"
 
     // Adding a WebView inside AndroidView with layout as full screen
     AndroidView(factory = {
@@ -63,7 +66,6 @@ fun FirebaseMessagingScreen() {
             layoutParams = ViewGroup.LayoutParams(
                 ViewGroup.LayoutParams.MATCH_PARENT,
                 ViewGroup.LayoutParams.MATCH_PARENT
-
             )
         }
     }, update = {
